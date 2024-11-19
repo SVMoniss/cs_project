@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt Game Levels</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            background-image: url('https://example.com/treasure-map.jpg'); /* Replace with your map image */
+            background-size: cover;
+            height: 500px; /* Adjust based on your map image */
+        }
+
+        .level {
+            position: absolute;
+            width: 50px; /* Size of clickable area */
+            height: 50px; /* Size of clickable area */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .completed {
+            background-color: green; /* Color for completed levels */
+        }
+
+        .not-completed {
+            background-color: red; /* Color for not completed levels */
+        }
+
+        .level a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to the Treasure Hunt, {{ username }}!</h2>
+
+    <div class="map-container">
+        {% for level in range(1, 6) %}
+        {% set completed = levels[level]['completed'] %}
+        {% set score = levels[level]['score'] %}
+        <div class="level {{ 'completed' if completed else 'not-completed' }}"
+             style="top: {{ level * 80 }}px; left: {{ level * 100 }}px;">
+            <!-- Adjust positioning -->
+            {% if completed %}
+            <span>✔</span>
+            {% else %}
+            <a href="{{ url_for('level', level=level) }}">
+                {{ level }}
+            </a>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <p><a href="/logout">Logout</a></p>
+</body>
+</html>

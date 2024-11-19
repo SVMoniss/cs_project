@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level {{ level }}</title>
+</head>
+<body>
+    <h2>{{ username }}, welcome to Level {{ level }}!</h2>
+
+    <form method="POST">
+        {% for i in range(questions|length) %}
+        <p><strong>Question {{ i + 1 }}: {{ questions[i]['question'] }}</strong></p>
+
+        {% for option in questions[i]['options'] %}
+        <input type="radio" id="answer_{{ i }}_{{ option }}" name="answer_{{ i }}" value="{{ option }}">
+        <label for="answer_{{ i }}_{{ option }}">{{ option }}</label><br>
+        {% endfor %}
+
+        <!-- Hidden field to store the correct answer -->
+        <input type="hidden" name="correct_answer_{{ i }}" value="{{ questions[i]['correct_answer'] }}">
+        {% endfor %}
+
+        <button type="submit">Submit Answers</button>
+    </form>
+
+    <p><a href="/game">Back to Treasure Map</a></p>
+</body>
+</html>
