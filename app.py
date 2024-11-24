@@ -1,6 +1,7 @@
 import sqlite3
 import requests
-from flask import Flask, session, redirect, url_for, request, render_template, g
+import random
+from flask import Flask, session, redirect, url_for, request, render_template, g,jsonify
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Change this to a random secret key
@@ -82,7 +83,7 @@ def fetch_questions(level):
 def home():
     if 'username' in session:
         return redirect(url_for('game'))
-    return '<h1>Welcome! <a href="/login">Login</a> or <a href="/register">Register</a></h1>'
+    return render_template('home.html')
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -135,6 +136,62 @@ def game():
     
     return render_template('game.html', username=username, levels=levels)
 
+def get_random_paper_id(level):
+    print(level)
+    conn = sqlite3.connect('question_bank.db')
+    cursor = conn.cursor()
+    paper_name = 'Paper '  + str(level)
+    # Select a random paper ID for the given level
+    cursor.execute('''
+        SELECT paper_id FROM TestPapers WHERE level_id = ?  and paper_name = ?
+    ''', (level, paper_name,))
+    
+    papers = cursor.fetchall()
+    
+    if not papers:
+        return None  # No papers found for this level
+
+    # Select a random paper ID from the available ones
+    random_paper = random.choice(papers)
+    conn.close()
+    
+    return random_paper[0]  # Return the paper 
+
+def get_questions(paper_id):
+    conn = sqlite3.connect('question_bank.db')
+    cursor = conn.cursor()
+
+    # Fetch questions for the given paper ID
+    cursor.execute('''
+        SELECT q.id, q.question_text, o.option_text, o.id AS option_id
+        FROM Questions q
+        JOIN Options o ON q.id = o.question_id
+        WHERE q.paper_id = ?
+    ''', (paper_id,))
+    
+    questions = cursor.fetchall()
+    
+    # Organize questions into a structured format
+    question_data = {}
+    for question_id, question_text, option_text, option_id in questions:
+        print(question_id)
+        if question_id not in question_data:
+            question_data[question_id] = {
+                'id': question_id,
+                'question_text': question_text,
+                'options': [],
+                'correct_option': None  # Placeholder for correct answer
+            }
+        question_data[question_id]['options'].append({
+            'option_text': option_text,
+            'option_id': option_id
+        })
+
+    conn.close()
+    
+    return list(question_data.values())  # Return as a list of questions
+
+
 @app.route('/level/<int:level>', methods=['GET', 'POST'])
 def level(level):
     if 'username' not in session:
@@ -148,7 +205,8 @@ def level(level):
                                                (username, level - 1)).fetchone())
 
     if not previous_level_completed:
-        return f'<h1>You must complete Level {level - 1} first!</h1><p><a href="/game">Back to Treasure Map</a></p>'
+        #return f'<h1>You must complete Level {level - 1} first!</h1><p><a href="/game">Back to Treasure Map</a></p>'
+        return render_template('pre-level.html', level=level)
     
     if request.method == 'POST':
         total_score = 0
@@ -168,10 +226,81 @@ def level(level):
         
         return redirect(url_for('game'))
 
-    questions = fetch_questions(level)
-    
-    return render_template('level.html', username=username, questions=questions)
+    #if 'user_level' not in session:
+    session['user_level'] = level  # Set user level in session
+    session['answers'] = []
 
+    paper_id = get_random_paper_id(level)
+    
+    if not paper_id:
+        return jsonify({"message": "No papers available for this level."}), 404
+    
+    questions = get_questions(paper_id)
+    print(questions)
+    return render_template('questions.html', questions=questions)
+
+@app.route('/submit', methods=['POST'])
+def submit():
+    data = request.get_json()  # Get JSON data from the request
+    
+    if not data or 'answers' not in data:
+        return jsonify({"message": "No answers submitted."}), 400
+    
+    answers = data['answers']  # Extract answers from the request data
+    
+    score = 0
+    
+    conn = sqlite3.connect('question_bank.db')
+    cursor = conn.cursor()
+
+    for answer in answers:
+        cursor.execute('''
+            SELECT correct_answer_id FROM Questions WHERE id = ?
+        ''', (answer['question_id'],))
+        
+        correct_answer_id = cursor.fetchone()
+        
+        if correct_answer_id and answer['option_id'] == correct_answer_id[0]:
+            score += 1
+
+    total_questions = len(answers)
+    conn.close()
+
+    conn = sqlite3.connect('users.db')
+    cursor = conn.cursor()
+    # Determine feedback color based on score
+    feedback_color = ""
+    next_level_allowed = False
+   
+    if score > 5:  # If score is greater than 5, allow next level and set color to green
+        feedback_color = "green"
+        next_level_allowed = True
+        
+        print(session['user_level'])
+        # Update user's completed levels in the database (assuming user ID is stored in session)
+        cursor.execute('INSERT OR REPLACE INTO user_progress (username, level, score, completed) VALUES (?, ?, ?, ?)',
+                   (session['username'],  session['user_level'] , score, True))
+        session['user_level'] += 1  # Allow progression to the next level
+    elif score >= total_questions * 0.5:  # Between 50% and 80% is orange
+        feedback_color = "orange"
+    else:  # Less than 50% is red
+        feedback_color = "red"
+
+    conn.commit()  # Commit changes to the database
+    conn.close()
+
+    return jsonify({
+        "score": score,
+        "total": total_questions,
+        "feedback_color": feedback_color,
+        "next_level_allowed": next_level_allowed,
+        "current_level": session['user_level']  # Return current level after submission
+    })
+
+@app.route('/reset', methods=['POST'])
+def reset():
+   session.pop('user_level', None)  # Reset user level progress
+   return jsonify({"message": "User progress reset."}), 200
 
 if __name__ == '__main__':
     init_db()  # Initialize the database
