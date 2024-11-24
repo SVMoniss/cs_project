@@ -3,77 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treasure Hunt Game Levels</title>
+    <title>IQ Treasure Hunt Levels</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            font-family: fantasy;
+            background-image: url('../static/images/waves.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            color: saddlebrown;
             margin: 0;
             padding: 20px;
+        }
+        h1 {
             text-align: center;
+            margin-bottom: 40px;
         }
-
-        h2 {
-            color: #333;
-        }
-
-        .map-container {
+        .level-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
             position: relative;
-            width: 100%;
-            max-width: 800px;
-            margin: auto;
-            background-image: url('https://example.com/treasure-map.jpg'); /* Replace with your map image */
-            background-size: cover;
-            height: 500px; /* Adjust based on your map image */
+            top: 100px;
         }
-
         .level {
-            position: absolute;
-            width: 50px; /* Size of clickable area */
-            height: 50px; /* Size of clickable area */
-            border-radius: 50%;
+            width: 50px; /* Adjust the width of each level */
+            height: 50px; /* Adjust the height of each level */
+            margin: 80px; /* Space between levels */
+            border-radius: 50%; /* Makes the level circular */
             display: flex;
             justify-content: center;
             align-items: center;
+            font-size: 24px;
             color: white;
-            font-weight: bold;
+            position: relative; /* Position relative for wave effect */
         }
-
+        .level:nth-child(odd) {
+            background-color: #ff0000; /* Blue for odd levels */
+            transform: translateY(-150px); /* Move odd levels up */
+        }
+        .level:nth-child(even) {
+            background-color: #ff0000; /* Green for even levels */
+            transform: translateY(150px); /* Move even levels down */
+        }
         .completed {
-            background-color: green; /* Color for completed levels */
+            background-color: #28a745 !important;  /* Yellow for completed levels */
+            
         }
-
-        .not-completed {
-            background-color: red; /* Color for not completed levels */
+        .score {
+            position: relative; /* Position score absolutely */
+            bottom: 100%; /* Center horizontally */
+            transform: translateX(-50%); /* Centering adjustment */
+            font-size: 16px; /* Font size for score */
+            color: #00f; /* Color for score text */
         }
-
-        .level a {
-            text-decoration: none;
-            color: white;
+        .arrow {
+            width: 0;
+            height: 5;
+            border-left: 5px solid transparent; /* Left side of arrow */
+            border-right: 5px solid transparent; /* Right side of arrow */
+            border-bottom: 10px solid #ffc107; /* Arrow color */
+            position: absolute;
+            top: -15px; /* Position above the circle */
+            left: 50%; /* Center horizontally above the circle */
+            transform: translateX(-50%); /* Centering adjustment */
         }
     </style>
 </head>
 <body>
-    <h2>Welcome to the Treasure Hunt, {{ username }}!</h2>
-
-    <div class="map-container">
+    <h1>Welcome to the IQ Treasure Hunt, {{ username }}!</h1>
+    <div class="level-container" >
         {% for level in range(1, 6) %}
-        {% set completed = levels[level]['completed'] %}
-        {% set score = levels[level]['score'] %}
-        <div class="level {{ 'completed' if completed else 'not-completed' }}"
-             style="top: {{ level * 80 }}px; left: {{ level * 100 }}px;">
-            <!-- Adjust positioning -->
-            {% if completed %}
-            <span>✔</span>
-            {% else %}
-            <a href="{{ url_for('level', level=level) }}">
-                {{ level }}
-            </a>
-            {% endif %}
-        </div>
+            {% set completed = levels[level]['completed'] %}
+            {% set score = levels[level]['score'] %}
+            
+            <div class="{% if completed %}completed{% endif %} level ">
+                {% if completed %}
+                    <span>✔</span>
+                    <div class="arrow"></div> <!-- Arrow pointing up -->
+                    <div class="score">{{ score }}</div> <!-- Display score -->
+                {% else %}
+                    <a href="{{ url_for('level', level=level) }}" style="color:#ffffff;">
+                        {{ level }}
+                    </a>
+                {% endif %}
+            </div>
         {% endfor %}
     </div>
 
-    <p><a href="/logout">Logout</a></p>
+    <div style="text-align:center; margin-top: 160px;"> 
+    </div>
 </body>
 </html>

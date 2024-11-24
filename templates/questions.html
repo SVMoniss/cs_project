@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Quiz Questions</title>
+   <style>
+       body {
+           font-family: 'Roboto', sans-serif;
+           background-image: url('../static/images/iq.jpg'); /* Replace with your image path */
+           background-size: cover;
+           background-position: center;
+           color: #00f;
+           margin: 0;
+           padding: 20px;
+       }
+       .question {
+           margin-bottom: 20px;
+           border-bottom: 1px solid #ccc;
+           padding-bottom: 10px;
+       }
+       .question p {
+           font-weight: bold;
+       }
+       button {
+           width: 100%;
+           padding: 10px;
+           background-color: #007bff; /* Green button */
+           color: white;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+       }
+
+           button:hover {
+               background-color: #0056b3; /* Darker green on hover */
+           }
+   </style>
+</head>
+<body>
+<h1>Quiz Questions</h1>
+
+<form id="quiz-form">
+   {% for question in questions %}
+       <div class="question">
+           <p>{{ loop.index }}. {{ question.question_text }}</p>
+           {% for option in question.options %}
+               <label>
+                   <input type="radio" name="option_{{ question.id }}" value="{{ option.option_id }}"
+                   {% if session.answers[question.id] == option.option_id %} checked {% endif %}>
+                   {{ option.option_text }}
+               </label><br>
+           {% endfor %}
+       </div>
+   {% endfor %}
+   
+   <button type="button" id="submit-answers">Submit Answers</button>
+</form>
+
+<script>
+document.getElementById("submit-answers").onclick = function() {
+   const answers = [];
+    selectedOption = false;
+   // Collect answers from form inputs 
+   {% for question in questions %}
+     selectedOption = document.querySelector('input[name="option_{{ question.id }}"]:checked');
+     if (selectedOption) {
+         answers.push({
+             question_id: {{ question.id }},
+             option_id: parseInt(selectedOption.value) % 4
+         });
+     }
+     {% endfor %}
+     
+     // Send answers to submit endpoint 
+     fetch('/submit', {
+         method: 'POST',
+         headers: {
+             'Content-Type': 'application/json'
+         },
+         body: JSON.stringify({ answers })
+     })
+    .then(response => response.json())
+     .then(data => {
+         alert(`Score: ${data.score}/${data.total} - Feedback Color: ${data.feedback_color}`);
+         if (data.next_level_allowed) {
+             alert("You can proceed to the next level!");
+             // Optionally redirect to the next level page or reload current page.
+             window.location.href = `/game`;
+         } else {
+             alert("You need to improve your score to advance.");
+         }
+     });
+   
+};
+</script>
+
+</body>
+</html>
