@@ -3,17 +3,16 @@ Prerequisite:
 •	Install Python and Flask on your local machine.
 Python 3.13.0 - Oct. 7, 2024
 Note that Python 3.13.0 cannot be used on Windows 7 or earlier.
-2.	Download Windows installer (64-bit)
+2.	Download Windows installer (64-bit) & Ensure to install SQLlite 
+•	Use SQLite for your database; it comes pre-installed with Python.
+3.	Develop Your Application:
 •	pip install Flask 
 •	pip install requests 
 •	pip install random
-•	Use SQLite for your database; it comes pre-installed with Python.
-3.	Develop Your Application:
 •	Create your Flask app with routes to serve HTML pages and handle user input.
 •	Use SQLite to store user and user scores.
 •	Implement the game logic in Python.
-4. Ensure to install SQLlite 
-5. Create question_bank.db, 
+4. Create question_bank.db, 
 cd scripts/data/
 python load_question.py 
 5. Ensure question_bank.db is created
