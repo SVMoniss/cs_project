@@ -10,5 +10,11 @@ Note that Python 3.13.0 cannot be used on Windows 7 or earlier.
 •	Create your Flask app with routes to serve HTML pages and handle user input.
 •	Use SQLite to store user and user scores.
 •	Implement the game logic in Python.
-4. Integrate the dynamic question generation via open AI 
-. Pending
+4. Ensure to install SQLlite 
+5. Create question_bank.db, 
+cd scripts/data/
+python load_question.py 
+5. Ensure question_bank.db is created
+6. Now from cs_project folder, run the Python Flask Web App
+python app.py
+7. If no error, open the web app, in browser http://127.0.0.1:5000/
