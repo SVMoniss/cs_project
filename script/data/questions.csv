@@ -1,0 +1,501 @@
+level,paper_id,question_text,option_1,option_2,option_3,option_4,correct_option
+1,1,"What is 2 + 2?","3","4","5","6",2
+1,1,"What is the capital of France?","London","Berlin","Paris","Madrid",3
+1,1,"What is the color of the sky on a clear day?","Green","Blue","Red","Yellow",2
+1,1,"Which is a mammal?","Shark","Dolphin","Salmon","Trout",2
+1,1,"Which planet is known as the Red Planet?","Earth","Mars","Jupiter","Venus",2
+1,1,"What is H2O commonly known as?","Oxygen","Hydrogen","Water","Helium",3
+1,1,"What is the largest ocean on Earth?","Atlantic","Indian","Arctic","Pacific",4
+1,1,"Who wrote 'Romeo and Juliet'?","Shakespeare","Dickens","Austen","Hemingway",1
+1,1,"What is the smallest prime number?","0","1","2","3",3
+1,1,"Which element has the chemical symbol 'O'?","Gold","Oxygen","Silver","Iron",2
+1,2,"What is 3 + 5?","7","8","9","10",2
+1,2,"What is the capital of Germany?","Vienna","Berlin","Zurich","Brussels",2
+1,2,"What color are bananas?","Red","Blue","Yellow","Green",3
+1,2,"Which is not a mammal?","Whale","Bat","Crocodile","Human",3
+1,2,"Which planet is known as the Blue Planet?","Mars","Venus","Earth","Jupiter",3
+1,2,"What is CO2 commonly known as?","Carbon Monoxide","Carbon Dioxide","Ozone","Methane",2
+1,2,"What is the longest river in the world?","Amazon","Nile","Yangtze","Mississippi",2
+1,2,"Who wrote '1984'?","Orwell","Huxley","Bradbury","Asimov",1
+1,2,"What is the second smallest prime number?","2","3","5","7",2
+1,2,"Which element has the chemical symbol 'Na'?","Nitrogen","Sodium","Neon","Nickel",2
+1,3,"What is 6 + 4?","8","9","10","11",3
+1,3,"What is the capital of Italy?","Rome","Paris","Madrid","Berlin",1
+1,3,"What color are strawberries?","Blue","Yellow","Red","Green",3
+1,3,"Which animal is known as the King of the Jungle?","Elephant","Tiger","Lion","Giraffe",3
+1,3,"Which planet is closest to the Sun?","Earth","Venus","Mercury","Mars",3
+1,3,"What is the chemical symbol for Gold?","Au","Ag","Pb","Fe",1
+1,3,"What is the smallest continent by land area?","Australia","Europe","Antarctica","South America",1
+1,3,"Who painted the Mona Lisa?","Van Gogh","Da Vinci","Picasso","Rembrandt",2
+1,3,"What is the square root of 16?","2","3","4","5",3
+1,3,"Which element has the chemical symbol 'He'?","Helium","Hydrogen","Hafnium","Hassium",1
+1,4,"What is 7 + 3?","8","9","10","11",3
+1,4,"What is the capital of Spain?","Lisbon","Madrid","Barcelona","Seville",2
+1,4,"What color are lemons?","Red","Blue","Yellow","Green",3
+1,4,"Which is not a bird?","Sparrow","Eagle","Penguin","Dolphin",4
+1,4,"Which planet is known as the Gas Giant?","Mars","Venus","Jupiter","Saturn",3
+1,4,"What is the chemical symbol for Silver?","Au","Ag","Pb","Fe",2
+1,4,"What is the tallest mountain in the world?","K2","Everest","Kilimanjaro","Denali",2
+1,4,"Who wrote 'The Great Gatsby'?","Fitzgerald","Hemingway","Steinbeck","Orwell",1
+1,4,"What is the cube root of 27?","2","3","4","5",2
+1,4,"Which element has the chemical symbol 'N'?","Neon","Nitrogen","Nickel","Neptunium",2
+1,5,"What is 8 + 2?","8","9","10","11",3
+1,5,"What is the capital of Japan?","Seoul","Tokyo","Beijing","Shanghai",2
+1,5,"What color are apples?","Red","Blue","Yellow","Green",1
+1,5,"Which is a reptile?","Frog","Snake","Cat","Dog",2
+1,5,"Which planet is known for its rings?","Mars","Venus","Jupiter","Saturn",4
+1,5,"What is the chemical symbol for Iron?","Au","Ag","Pb","Fe",4
+1,5,"What is the largest desert in the world?","Sahara","Gobi","Kalahari","Arctic",1
+1,5,"Who wrote 'Moby Dick'?","Melville","Twain","Hawthorne","Poe",1
+1,5,"What is the fourth prime number?","5","7","11","13",3
+1,5,"Which element has the chemical symbol 'C'?","Calcium","Carbon","Cobalt","Copper",2
+1,6,"What is 5 + 5?","8","9","10","11",3
+1,6,"What is the capital of Canada?","Toronto","Ottawa","Vancouver","Montreal",2
+1,6,"What color are grapes?","Red","Blue","Yellow","Green",1
+1,6,"Which is a fish?","Salmon","Frog","Crab","Lizard",1
+1,6,"Which planet is known as Earth's Twin?","Mars","Venus","Jupiter","Saturn",2
+1,6,"What is the chemical symbol for Lead?","Au","Ag","Pb","Fe",3
+1,6,"What is the longest mountain range in the world?","Rockies","Andes","Himalayas","Alps",2
+1,6,"Who wrote 'Pride and Prejudice'?","Austen","Bronte","Woolf","Eliot",1
+1,6,"What is the fifth prime number?","5","7","11","13",4
+1,6,"Which element has the chemical symbol 'H'?","Helium","Hydrogen","Hafnium","Hassium",2
+1,7,"What is 4 + 6?","8","9","10","11",3
+1,7,"What is the capital of Australia?","Sydney","Melbourne","Canberra","Brisbane",3
+1,7,"What color are oranges?","Red","Blue","Yellow","Orange",4
+1,7,"Which is an amphibian?","Salamander","Snake","Turtle","Lizard",1
+1,7,"Which planet is known as the Ice Giant?","Mars","Venus","Uranus","Saturn",3
+1,7,"What is the chemical symbol for Copper?","Cu","Ag","Pb","Fe",1
+1,7,"What is the largest country by area?","Canada","Russia","China","USA",2
+1,7,"Who wrote 'To Kill a Mockingbird'?","Lee","Fitzgerald","Steinbeck","Hemingway",1
+1,7,"What is the sixth prime number?","5","7","11","13",3
+1,7,"Which element has the chemical symbol 'K'?","Krypton","Krypton","Potassium","Krypton",3
+1,8,"What is 10 - 2?","8","9","10","11",1
+1,8,"What is the capital of Russia?","Moscow","St. Petersburg","Kiev","Warsaw",1
+1,8,"What color are blueberries?","Red","Blue","Yellow","Green",2
+1,8,"Which is a mammal?","Frog","Whale","Crab","Lizard",2
+1,8,"Which planet is known for its Great Red Spot?","Mars","Venus","Jupiter","Saturn",3
+1,8,"What is the chemical symbol for Zinc?","Zn","Ag","Pb","Fe",1
+1,8,"What is the smallest country by area?","Vatican City","Monaco","Nauru","San Marino",1
+1,8,"Who wrote 'The Catcher in the Rye'?","Salinger","Hemingway","Fitzgerald","Steinbeck",1
+1,8,"What is the seventh prime number?","5","7","11","13",4
+1,8,"Which element has the chemical symbol 'S'?","Sulfur","Sodium","Strontium","Scandium",1
+1,9,"What is 12 - 2?","8","9","10","11",3
+1,9,"What is the capital of China?","Beijing","Shanghai","Tokyo","Seoul",1
+1,9,"What color are carrots?","Red","Blue","Orange","Green",3
+1,9,"Which is a bird?","Eagle","Shark","Frog","Lizard",1
+1,9,"Which planet is known as the Morning Star?","Mars","Venus","Jupiter","Saturn",2
+1,9,"What is the chemical symbol for Tin?","Sn","Ag","Pb","Fe",1
+1,9,"What is the largest island in the world?","Greenland","Australia","New Guinea","Borneo",1
+1,9,"Who wrote 'Brave New World'?","Huxley","Orwell","Bradbury","Asimov",1
+1,9,"What is the eighth prime number?","5","7","11","17",4
+1,9,"Which element has the chemical symbol 'Ca'?","Calcium","Carbon","Cobalt","Copper",1
+1,10,"What is 15 - 5?","8","9","10","11",3
+1,10,"What is the capital of India?","Mumbai","Delhi","Bangalore","Chennai",2
+1,10,"What color are tomatoes?","Red","Blue","Yellow","Green",1
+1,10,"Which is a reptile?","Frog","Snake","Cat","Dog",2
+1,10,"Which planet is known for its rings?","Mars","Venus","Jupiter","Saturn",4
+1,10,"What is the chemical symbol for Iron?","Au","Ag","Pb","Fe",4
+1,10,"What is the largest desert in the world?","Sahara","Gobi","Kalahari","Arctic",1
+1,10,"Who wrote 'Moby Dick'?","Melville","Twain","Hawthorne","Poe",1
+1,10,"What is the fourth prime number?","5","7","11","13",3
+1,10,"Which element has the chemical symbol 'C'?","Calcium","Carbon","Cobalt","Copper",2
+2,1,"What is the result of 12 x 3?","26","36","46","56",2
+2,1,"Which country is known as the Land of the Rising Sun?","China","Japan","Thailand","India",2
+2,1,"What is the chemical formula for table salt?","NaCl","KCl","CaCl","MgCl",1
+2,1,"Who developed the theory of relativity?","Newton","Einstein","Galileo","Bohr",2
+2,1,"Which organ in the human body is responsible for pumping blood?","Liver","Brain","Heart","Lungs",3
+2,1,"What is the main gas found in the air we breathe?","Oxygen","Hydrogen","Nitrogen","Carbon Dioxide",3
+2,1,"Which element has the atomic number 1?","Helium","Hydrogen","Lithium","Beryllium",2
+2,1,"What is the capital city of Australia?","Sydney","Melbourne","Canberra","Brisbane",3
+2,1,"Who wrote 'The Odyssey'?","Homer","Virgil","Sophocles","Aristotle",1
+2,1,"What is the largest planet in our solar system?","Earth","Mars","Jupiter","Saturn",3
+2,2,"What is the square of 15?","215","225","235","245",2
+2,2,"Which country is known for the Eiffel Tower?","Italy","France","Spain","Germany",2
+2,2,"What is the pH level of pure water?","5","6","7","8",3
+2,2,"Who is known as the father of modern physics?","Newton","Einstein","Galileo","Bohr",1
+2,2,"Which system in the human body controls movement?","Respiratory","Circulatory","Nervous","Digestive",3
+2,2,"What gas do plants absorb from the atmosphere?","Oxygen","Hydrogen","Nitrogen","Carbon Dioxide",4
+2,2,"Which element is represented by the symbol 'O'?","Oxygen","Gold","Silver","Iron",1
+2,2,"What is the capital city of Canada?","Toronto","Ottawa","Vancouver","Montreal",2
+2,2,"Who wrote 'The Divine Comedy'?","Dante","Virgil","Sophocles","Aristotle",1
+2,2,"Which planet is known as the Earth's Twin?","Mars","Venus","Jupiter","Saturn",2
+2,3,"What is the cube of 3?","27","18","9","36",1
+2,3,"Which country is known for its pyramids?","Greece","Egypt","Mexico","India",2
+2,3,"What is the chemical symbol for water?","H2O","CO2","O2","NaCl",1
+2,3,"Who is known for the laws of motion?","Newton","Einstein","Galileo","Bohr",1
+2,3,"Which part of the human body is responsible for digestion?","Heart","Brain","Stomach","Lungs",3
+2,3,"What gas is essential for human respiration?","Oxygen","Hydrogen","Nitrogen","Carbon Dioxide",1
+2,3,"Which element is used in pencils?","Lead","Graphite","Copper","Iron",2
+2,3,"What is the capital city of Italy?","Rome","Paris","Madrid","Berlin",1
+2,3,"Who wrote 'Pride and Prejudice'?","Austen","Bronte","Woolf","Eliot",1
+2,3,"Which planet is known for its rings?","Mars","Venus","Jupiter","Saturn",4
+2,4,"What is the square root of 81?","8","9","10","11",2
+2,4,"Which country is known for the Great Wall?","Japan","China","India","Korea",2
+2,4,"What is the formula for calculating the area of a circle?","πr^2","2πr","πd","2r",1
+2,4,"Who proposed the heliocentric model of the solar system?","Newton","Einstein","Galileo","Copernicus",4
+2,4,"Which organ filters waste from the blood?","Liver","Brain","Kidneys","Lungs",3
+2,4,"What is the main component of the sun?","Oxygen","Hydrogen","Nitrogen","Carbon Dioxide",2
+2,4,"Which element is represented by the symbol 'Fe'?","Gold","Silver","Iron","Copper",3
+2,4,"What is the capital city of Spain?","Lisbon","Madrid","Barcelona","Seville",2
+2,4,"Who wrote 'War and Peace'?","Tolstoy","Dostoevsky","Pushkin","Chekhov",1
+2,4,"Which planet is known as the Red Planet?","Mars","Venus","Jupiter","Saturn",1
+2,5,"What is the result of 9 x 9?","71","81","91","101",2
+2,5,"Which country is known for the Taj Mahal?","China","India","Thailand","Nepal",2
+2,5,"What is the chemical symbol for gold?","Au","Ag","Pb","Fe",1
+2,5,"Who is known as the father of geometry?","Euclid","Pythagoras","Archimedes","Newton",1
+2,5,"Which system in the human body fights infections?","Respiratory","Circulatory","Immune","Digestive",3
+2,5,"What gas do humans exhale?","Oxygen","Hydrogen","Nitrogen","Carbon Dioxide",4
+2,5,"Which element is used in making coins?","Gold","Silver","Copper","Iron",3
+2,5,"What is the capital city of Russia?","Moscow","St. Petersburg","Kiev","Warsaw",1
+2,5,"Who wrote 'The Great Gatsby'?","Fitzgerald","Hemingway","Steinbeck","Orwell",1
+2,5,"Which planet is known for its Great Red Spot?","Mars","Venus","Jupiter","Saturn",3
+2,6,"What is the square of 12?","124","144","164","184",2
+2,6,"Which country is known for its maple syrup?","USA","Canada","Russia","Australia",2
+2,6,"What is the chemical formula for carbon dioxide?","CO2","H2O","O2","NaCl",1
+2,6,"Who discovered penicillin?","Fleming","Curie","Pasteur","Einstein",1
+2,6,"Which organ in the human body is responsible for vision?","Liver","Brain","Eye","Lungs",3
+2,6,"What is the main gas found in Earth's atmosphere?","Oxygen","Hydrogen","Nitrogen","Carbon Dioxide",3
+2,6,"Which element is a noble gas?","Helium","Hydrogen","Carbon","Oxygen",1
+2,6,"What is the capital city of Germany?","Vienna","Berlin","Zurich","Brussels",2
+2,6,"Who wrote '1984'?","Orwell","Huxley","Bradbury","Asimov",1
+2,6,"Which planet is closest to the Sun?","Earth","Venus","Mercury","Mars",3
+2,7,"What is the cube root of 64?","2","3","4","5",3
+2,7,"Which country is known for its kangaroos?","Australia","India","South Africa","Brazil",1
+2,7,"What is the chemical symbol for silver?","Au","Ag","Pb","Fe",2
+2,7,"Who is known for the theory of evolution?","Newton","Einstein","Darwin","Bohr",3
+2,7,"Which system in the human body circulates blood?","Respiratory","Circulatory","Nervous","Digestive",2
+2,7,"What gas is used in balloons to make them float?","Oxygen","Hydrogen","Nitrogen","Helium",4
+2,7,"Which element is used in thermometers?","Mercury","Gold","Silver","Iron",1
+2,7,"What is the capital city of Brazil?","Rio de Janeiro","Brasilia","Sao Paulo","Salvador",2
+2,7,"Who wrote 'The Iliad'?","Homer","Virgil","Sophocles","Aristotle",1
+2,7,"Which planet is known as the Blue Planet?","Mars","Venus","Earth","Jupiter",3
+2,8,"What is the result of 7 x 8?","54","56","58","60",2
+2,8,"Which country is known for its sushi?","China","Japan","India","Thailand",2
+2,8,"What is the chemical formula for glucose?","C6H12O6","H2O","O2","NaCl",1
+2,8,"Who is known for the invention of the telephone?","Bell","Edison","Tesla","Marconi",1
+2,8,"Which organ in the human body is responsible for detoxification?","Liver","Brain","Heart","Lungs",1
+2,8,"What is the main gas found in the sun?","Oxygen","Hydrogen","Nitrogen","Carbon Dioxide",2
+2,8,"Which element is used in batteries?","Lithium","Gold","Silver","Iron",1
+2,8,"What is the capital city of Egypt?","Cairo","Alexandria","Giza","Luxor",1
+2,8,"Who wrote 'The Catcher in the Rye'?","Salinger","Hemingway","Fitzgerald","Steinbeck",1
+2,8,"Which planet is known as the Morning Star?","Mars","Venus","Jupiter","Saturn",2
+2,9,"What is the square root of 144?","10","11","12","13",3
+2,9,"Which country is known for its tulips?","France","Netherlands","Italy","Spain",2
+2,9,"What is the chemical symbol for iron?","Au","Ag","Pb","Fe",4
+2,9,"Who is known for the invention of the light bulb?","Bell","Edison","Tesla","Marconi",2
+2,9,"Which system in the human body is responsible for breathing?","Respiratory","Circulatory","Nervous","Digestive",1
+2,9,"What gas is used in neon signs?","Oxygen","Hydrogen","Nitrogen","Neon",4
+2,9,"Which element is a halogen?","Fluorine","Gold","Silver","Iron",1
+2,9,"What is the capital city of Greece?","Athens","Sparta","Corinth","Thebes",1
+2,9,"Who wrote 'To Kill a Mockingbird'?","Lee","Fitzgerald","Steinbeck","Hemingway",1
+2,9,"Which planet is known as the Gas Giant?","Mars","Venus","Jupiter","Saturn",3
+2,10,"What is the cube of 4?","16","32","64","128",3
+2,10,"Which country is known for its fjords?","Sweden","Norway","Denmark","Finland",2
+2,10,"What is the chemical formula for ammonia?","NH3","H2O","O2","NaCl",1
+2,10,"Who is known for the discovery of gravity?","Newton","Einstein","Galileo","Bohr",1
+2,10,"Which organ in the human body is responsible for hearing?","Liver","Brain","Ear","Lungs",3
+2,10,"What gas is used in refrigerators?","Oxygen","Hydrogen","Nitrogen","Freon",4
+2,10,"Which element is used in light bulbs?","Tungsten","Gold","Silver","Iron",1
+2,10,"What is the capital city of Turkey?","Istanbul","Ankara","Izmir","Antalya",2
+2,10,"Who wrote 'The Hobbit'?","Tolkien","Lewis","Rowling","Martin",1
+2,10,"Which planet is known as the Ice Giant?","Mars","Venus","Uranus","Saturn",3
+3,1,"What is the derivative of sin(x)?","cos(x)","-sin(x)","-cos(x)","tan(x)",1
+3,1,"Which physicist is known for the uncertainty principle?","Einstein","Heisenberg","Bohr","Planck",2
+3,1,"What is the capital of the country with the largest land area in South America?","Buenos Aires","Brasilia","Lima","Santiago",2
+3,1,"Which element has the highest atomic number that occurs naturally?","Uranium","Plutonium","Thorium","Radium",1
+3,1,"What is the integral of 1/x dx?","ln|x| + C","1/x + C","x + C","e^x + C",1
+3,1,"Which philosopher wrote 'Critique of Pure Reason'?","Descartes","Kant","Hegel","Nietzsche",2
+3,1,"What is the term for a solution that resists changes in pH when an acid or base is added?","Buffer","Catalyst","Solvent","Reactant",1
+3,1,"Which novel begins with 'It was the best of times, it was the worst of times'?","Moby Dick","War and Peace","A Tale of Two Cities","Pride and Prejudice",3
+3,1,"What is the main component of natural gas?","Methane","Propane","Butane","Ethane",1
+3,1,"Which ancient civilization built Machu Picchu?","Maya","Aztec","Inca","Olmec",3
+3,2,"What is the capital of the country known as the Land of Fire and Ice?","Oslo","Reykjavik","Helsinki","Stockholm",2
+3,2,"Which scientist developed the general theory of relativity?","Newton","Einstein","Galileo","Bohr",2
+3,2,"What is the chemical formula for the mineral quartz?","SiO2","CaCO3","Al2O3","Fe2O3",1
+3,2,"Who composed the opera 'The Magic Flute'?","Beethoven","Mozart","Wagner","Verdi",2
+3,2,"What is the name of the largest moon of Saturn?","Ganymede","Titan","Callisto","Europa",2
+3,2,"Which author wrote 'Don Quixote'?","Shakespeare","Cervantes","Homer","Tolstoy",2
+3,2,"What is the main gas responsible for the greenhouse effect?","Nitrogen","Oxygen","Carbon Dioxide","Methane",3
+3,2,"Which mathematician is known for the Fibonacci sequence?","Gauss","Euler","Fibonacci","Descartes",3
+3,2,"What is the term for a mixture where one substance is dissolved in another?","Solution","Suspension","Colloid","Emulsion",1
+3,2,"Which war was fought between the north and south regions in the United States?","Revolutionary War","Civil War","World War I","World War II",2
+3,3,"What is the capital of the country with the world's largest population?","Beijing","New Delhi","Tokyo","Jakarta",1
+3,3,"Which scientist is known for the laws of planetary motion?","Galileo","Kepler","Copernicus","Newton",2
+3,3,"What is the chemical formula for table sugar?","C6H12O6","C12H22O11","C2H5OH","CH4",2
+3,3,"Who painted 'The Last Supper'?","Michelangelo","Raphael","Leonardo da Vinci","Donatello",3
+3,3,"What is the name of the largest ocean on Earth?","Atlantic","Indian","Arctic","Pacific",4
+3,3,"Which author wrote 'The Brothers Karamazov'?","Tolstoy","Dostoevsky","Chekhov","Turgenev",2
+3,3,"What is the primary gas in Earth's atmosphere?","Oxygen","Hydrogen","Nitrogen","Carbon Dioxide",3
+3,3,"Which mathematician is known for the Pythagorean theorem?","Euclid","Archimedes","Pythagoras","Newton",3
+3,3,"What is the term for a solid turning directly into a gas?","Melting","Sublimation","Condensation","Deposition",2
+3,3,"Which conflict was known as 'The Great War'?","World War I","World War II","Korean War","Vietnam War",1
+3,4,"What is the capital of the country with the largest economy in Europe?","Paris","London","Berlin","Rome",3
+3,4,"Which scientist is known for the theory of evolution by natural selection?","Mendel","Darwin","Lamarck","Wallace",2
+3,4,"What is the chemical formula for caffeine?","C8H10N4O2","C6H12O6","C2H5OH","CH4",1
+3,4,"Who composed the symphony 'Eroica'?","Beethoven","Mozart","Bach","Haydn",1
+3,4,"What is the name of the largest desert in the world?","Sahara","Gobi","Antarctic","Arctic",3
+3,4,"Which author wrote 'One Hundred Years of Solitude'?","Marquez","Borges","Neruda","Llosa",1
+3,4,"What is the main gas used in neon signs?","Oxygen","Hydrogen","Nitrogen","Neon",4
+3,4,"Which mathematician is known for the Cartesian coordinate system?","Euclid","Descartes","Pythagoras","Newton",2
+3,4,"What is the term for a gas turning into a liquid?","Evaporation","Condensation","Sublimation","Deposition",2
+3,4,"Which war was fought between the Allied and Axis powers?","World War I","World War II","Korean War","Vietnam War",2
+3,5,"What is the capital of the country with the largest GDP in the world?","Washington D.C.","Beijing","Tokyo","Berlin",1
+3,5,"Which scientist is known for his work on electromagnetism?","Faraday","Einstein","Galileo","Bohr",1
+3,5,"What is the chemical formula for acetic acid?","CH3COOH","C6H12O6","C2H5OH","CH4",1
+3,5,"Who painted 'Starry Night'?","Monet","Van Gogh","Picasso","Rembrandt",2
+3,5,"What is the name of the largest coral reef system in the world?","Red Sea Coral Reef","Great Barrier Reef","Belize Barrier Reef","Florida Reef",2
+3,5,"Which author wrote 'Crime and Punishment'?","Tolstoy","Dostoevsky","Chekhov","Turgenev",2
+3,5,"What is the primary component of the Earth's core?","Iron","Nickel","Oxygen","Silicon",1
+3,5,"Which mathematician is known for calculus?","Newton","Euclid","Pythagoras","Archimedes",1
+3,5,"What is the term for a liquid turning into a solid?","Melting","Freezing","Sublimation","Deposition",2
+3,5,"Which conflict was known as 'The War to End All Wars'?","World War I","World War II","Korean War","Vietnam War",1
+3,6,"What is the capital of the country with the most Nobel Prizes in Literature?","Paris","Stockholm","London","Dublin",1
+3,6,"Which scientist is known for his work on radioactivity?","Curie","Einstein","Galileo","Bohr",1
+3,6,"What is the chemical formula for baking soda?","NaHCO3","C6H12O6","C2H5OH","CH4",1
+3,6,"Who composed the 'Four Seasons'?","Beethoven","Vivaldi","Bach","Mozart",2
+3,6,"What is the name of the largest island in the world?","Greenland","Australia","New Guinea","Borneo",1
+3,6,"Which author wrote 'The Metamorphosis'?","Kafka","Orwell","Huxley","Asimov",1
+3,6,"What is the main gas in Earth's stratosphere that absorbs UV radiation?","Ozone","Oxygen","Nitrogen","Carbon Dioxide",1
+3,6,"Which mathematician is known for the number e?","Newton","Euler","Pythagoras","Archimedes",2
+3,6,"What is the term for a liquid turning into a gas?","Evaporation","Condensation","Sublimation","Deposition",1
+3,6,"Which war was fought over the control of the spice trade?","World War I","World War II","Korean War","Dutch-Portuguese War",4
+3,7,"What is the capital of the country known for the Nobel Peace Prize?","Oslo","Stockholm","Helsinki","Copenhagen",1
+3,7,"Which scientist is known for his work on the photoelectric effect?","Einstein","Curie","Galileo","Bohr",1
+3,7,"What is the chemical formula for sulfuric acid?","H2SO4","C6H12O6","C2H5OH","CH4",1
+3,7,"Who painted 'The Persistence of Memory'?","Monet","Dali","Picasso","Rembrandt",2
+3,7,"What is the name of the largest lake in the world by surface area?","Lake Superior","Lake Victoria","Caspian Sea","Lake Michigan",3
+3,7,"Which author wrote 'The Trial'?","Kafka","Orwell","Huxley","Asimov",1
+3,7,"What is the main component of natural gas used for heating?","Methane","Propane","Butane","Ethane",1
+3,7,"Which mathematician is known for the concept of zero?","Euclid","Brahmagupta","Pythagoras","Archimedes",2
+3,7,"What is the term for a solid turning into a liquid?","Melting","Freezing","Sublimation","Deposition",1
+3,7,"Which conflict was known as the 'Cold War'?","World War I","World War II","Korean War","Cold War",4
+3,8,"What is the capital of the country with the largest population in Africa?","Lagos","Cairo","Nairobi","Addis Ababa",2
+3,8,"Which scientist is known for his work on black holes?","Hawking","Einstein","Galileo","Bohr",1
+3,8,"What is the chemical formula for ethanol?","C2H5OH","C6H12O6","CH4","H2O",1
+3,8,"Who composed 'The Nutcracker'?","Tchaikovsky","Beethoven","Bach","Mozart",1
+3,8,"What is the name of the largest river by discharge volume?","Amazon","Nile","Yangtze","Mississippi",1
+3,8,"Which author wrote 'The Stranger'?","Camus","Orwell","Huxley","Asimov",1
+3,8,"What is the main gas used in scuba diving tanks?","Oxygen","Hydrogen","Nitrogen","Helium",3
+3,8,"Which mathematician is known for the theory of probability?","Pascal","Fermat","Pythagoras","Archimedes",1
+3,8,"What is the term for a liquid turning into a gas below its boiling point?","Evaporation","Condensation","Sublimation","Deposition",1
+3,8,"Which war was fought between the British and the Zulu Kingdom?","World War I","World War II","Korean War","Anglo-Zulu War",4
+3,9,"What is the capital of the country known for the Eiffel Tower?","Rome","Paris","Madrid","Berlin",2
+3,9,"Which scientist is known for his work on the atomic bomb?","Oppenheimer","Einstein","Galileo","Bohr",1
+3,9,"What is the chemical formula for hydrochloric acid?","HCl","C6H12O6","C2H5OH","CH4",1
+3,9,"Who painted 'Guernica'?","Monet","Dali","Picasso","Rembrandt",3
+3,9,"What is the name of the largest waterfall by flow rate?","Niagara Falls","Victoria Falls","Iguazu Falls","Angel Falls",3
+3,9,"Which author wrote 'Les Misérables'?","Hugo","Orwell","Huxley","Asimov",1
+3,9,"What is the main gas in Earth's atmosphere that supports combustion?","Oxygen","Hydrogen","Nitrogen","Carbon Dioxide",1
+3,9,"Which mathematician is known for the theory of relativity?","Einstein","Euclid","Pythagoras","Archimedes",1
+3,9,"What is the term for a gas turning into a solid?","Melting","Sublimation","Condensation","Deposition",4
+3,9,"Which conflict was known as 'The War of the Roses'?","World War I","World War II","Korean War","War of the Roses",4
+3,10,"What is the capital of the country known for the Great Wall?","Tokyo","Seoul","Beijing","Bangkok",3
+3,10,"Which scientist is known for his work on quantum mechanics?","Schrodinger","Einstein","Galileo","Bohr",1
+3,10,"What is the chemical formula for nitric acid?","HNO3","C6H12O6","C2H5OH","CH4",1
+3,10,"Who composed 'Swan Lake'?","Tchaikovsky","Beethoven","Bach","Mozart",1
+3,10,"What is the name of the largest island in the Mediterranean Sea?","Sicily","Sardinia","Crete","Cyprus",1
+3,10,"Which author wrote 'The Picture of Dorian Gray'?","Wilde","Orwell","Huxley","Asimov",1
+3,10,"What is the main gas used in blimps and airships?","Oxygen","Hydrogen","Nitrogen","Helium",4
+3,10,"Which mathematician is known for the theory of numbers?","Gauss","Euclid","Pythagoras","Archimedes",1
+3,10,"What is the term for a solid turning directly into a gas?","Melting","Sublimation","Condensation","Deposition",2
+3,10,"Which conflict was known as 'The Hundred Years' War'?","World War I","World War II","Korean War","Hundred Years' War",4
+4,1,"What is the Riemann Hypothesis concerned with?","Prime numbers","Quantum mechanics","Relativity","String theory",1
+4,1,"Which philosopher is known for the concept of 'Tabula Rasa'?","Descartes","Locke","Kant","Nietzsche",2
+4,1,"What is the main focus of Gödel's incompleteness theorems?","Mathematical logic","Quantum physics","Relativity","Economics",1
+4,1,"Which element has the highest electronegativity?","Oxygen","Fluorine","Chlorine","Nitrogen",2
+4,1,"What is the Heisenberg Uncertainty Principle about?","Position and velocity","Energy and time","Mass and charge","Spin and magnetism",1
+4,1,"Who developed the general theory of relativity?","Newton","Einstein","Galileo","Bohr",2
+4,1,"What is the Schrödinger's cat thought experiment about?","Quantum superposition","Relativity","Chaos theory","String theory",1
+4,1,"Which civilization is known for the development of cuneiform script?","Egyptians","Sumerians","Mayans","Romans",2
+4,1,"What is the main theme of Nietzsche's 'Thus Spoke Zarathustra'?","Eternal recurrence","God is dead","Ubermensch","Will to power",3
+4,1,"Which field does the Navier-Stokes equation belong to?","Chemistry","Fluid dynamics","Electromagnetism","Thermodynamics",2
+4,2,"What is the P vs NP problem in computer science?","Complexity classes","Quantum computing","Artificial intelligence","Cryptography",1
+4,2,"Which philosopher is known for 'The Allegory of the Cave'?","Plato","Aristotle","Socrates","Epicurus",1
+4,2,"What is Fermat's Last Theorem about?","Prime numbers","Pythagorean triples","Elliptic curves","Modular forms",2
+4,2,"Which element is known for its role in the Haber process?","Oxygen","Nitrogen","Hydrogen","Helium",2
+4,2,"What is the main focus of Maxwell's equations?","Electromagnetism","Thermodynamics","Quantum mechanics","Relativity",1
+4,2,"Who proposed the wave-particle duality of light?","Einstein","Planck","Bohr","de Broglie",4
+4,2,"What is the central theme of Camus' 'The Myth of Sisyphus'?","Absurdism","Existentialism","Nihilism","Determinism",1
+4,2,"Which civilization is credited with the invention of the wheel?","Mesopotamian","Egyptian","Greek","Roman",1
+4,2,"What is the main concept behind Foucault's 'Discipline and Punish'?","Power and knowledge","Panopticism","Biopolitics","Governmentality",2
+4,2,"Which mathematical concept did Cantor develop?","Set theory","Calculus","Topology","Algebra",1
+4,3,"What is the significance of the Higgs boson in physics?","Mass generation","Energy conservation","Force mediation","Quantum entanglement",1
+4,3,"Which philosopher is known for the idea of 'eternal recurrence'?","Nietzsche","Kant","Hegel","Sartre",1
+4,3,"What is the Goldbach Conjecture about?","Prime numbers","Fibonacci sequence","Riemann zeta function","Elliptic curves",1
+4,3,"Which element is used in nuclear reactors as a fuel?","Uranium","Thorium","Plutonium","Radium",1
+4,3,"What is the main focus of the Second Law of Thermodynamics?","Entropy","Energy conservation","Pressure","Volume",1
+4,3,"Who is known for the principle of complementarity in quantum mechanics?","Bohr","Einstein","Heisenberg","Schrodinger",1
+4,3,"What is the central theme of Heidegger's 'Being and Time'?","Ontology","Epistemology","Ethics","Aesthetics",1
+4,3,"Which civilization developed the concept of zero?","Babylonian","Indian","Chinese","Greek",2
+4,3,"What is the main idea of Derrida's deconstruction?","Textual analysis","Structuralism","Postmodernism","Phenomenology",1
+4,3,"Which mathematical concept did Gödel's incompleteness theorems challenge?","Completeness","Consistency","Decidability","Soundness",1
+4,4,"What is the significance of the Mandelbrot set in mathematics?","Fractals","Topology","Number theory","Algebra",1
+4,4,"Which philosopher is known for the 'categorical imperative'?","Kant","Hume","Locke","Rousseau",1
+4,4,"What is the Millennium Prize Problems' focus?","Unsolved problems","Quantum mechanics","Relativity","Cryptography",1
+4,4,"Which element is known for its superconductive properties?","Mercury","Lead","Yttrium","Copper",3
+4,4,"What is the main focus of the Pauli exclusion principle?","Fermions","Bosons","Photons","Neutrons",1
+4,4,"Who developed the uncertainty principle in quantum mechanics?","Heisenberg","Einstein","Bohr","Planck",1
+4,4,"What is the central concept of Sartre's 'Being and Nothingness'?","Existentialism","Absurdism","Nihilism","Determinism",1
+4,4,"Which civilization is credited with the invention of the calendar?","Egyptian","Mayan","Roman","Greek",2
+4,4,"What is the main idea of Lacan's psychoanalysis?","Mirror stage","Oedipus complex","Dream analysis","Transference",1
+4,4,"Which mathematical concept did Turing develop?","Computability","Complexity","Topology","Algebra",1
+4,5,"What is the significance of the Lorentz transformation in physics?","Relativity","Quantum mechanics","Thermodynamics","Electromagnetism",1
+4,5,"Which philosopher is known for the 'dialectic method'?","Hegel","Kant","Socrates","Descartes",1
+4,5,"What is the Poincaré conjecture about?","Topology","Number theory","Complex analysis","Differential equations",1
+4,5,"Which element is known for its catalytic properties?","Platinum","Gold","Silver","Copper",1
+4,5,"What is the main focus of the Planck constant?","Quantum mechanics","Relativity","Thermodynamics","Electromagnetism",1
+4,5,"Who developed the theory of general relativity?","Einstein","Newton","Galileo","Bohr",1
+4,5,"What is the central theme of Kierkegaard's 'Fear and Trembling'?","Faith","Despair","Freedom","Ethics",1
+4,5,"Which civilization is credited with the invention of the compass?","Chinese","Greek","Roman","Egyptian",1
+4,5,"What is the main idea of Baudrillard's 'Simulacra and Simulation'?","Hyperreality","Postmodernism","Existentialism","Structuralism",1
+4,5,"Which mathematical concept did Riemann develop?","Geometry","Calculus","Number theory","Algebra",1
+4,6,"What is the significance of the Dirac equation in quantum mechanics?","Electron behavior","Photon behavior","Neutron behavior","Proton behavior",1
+4,6,"Which philosopher is known for 'The Will to Power'?","Nietzsche","Kant","Hegel","Sartre",1
+4,6,"What is the Birch and Swinnerton-Dyer conjecture about?","Elliptic curves","Prime numbers","Riemann zeta function","Fibonacci sequence",1
+4,6,"Which element is known for its role in organic chemistry?","Carbon","Oxygen","Hydrogen","Nitrogen",1
+4,6,"What is the main focus of the Copenhagen interpretation?","Quantum mechanics","Relativity","Thermodynamics","Electromagnetism",1
+4,6,"Who proposed the theory of evolution by natural selection?","Darwin","Mendel","Lamarck","Wallace",1
+4,6,"What is the central theme of Foucault's 'The Birth of the Clinic'?","Medical gaze","Biopolitics","Panopticism","Governmentality",1
+4,6,"Which civilization is credited with the invention of paper?","Chinese","Greek","Roman","Egyptian",1
+4,6,"What is the main idea of Althusser's 'Ideology and Ideological State Apparatuses'?","Interpellation","Hegemony","Power","Resistance",1
+4,6,"Which mathematical concept did Nash contribute to?","Game theory","Topology","Number theory","Algebra",1
+4,7,"What is the significance of the Born rule in quantum mechanics?","Probability","Energy","Momentum","Spin",1
+4,7,"Which philosopher is known for 'The Phenomenology of Spirit'?","Hegel","Kant","Socrates","Descartes",1
+4,7,"What is the Hodge conjecture about?","Topology","Number theory","Complex analysis","Differential equations",1
+4,7,"Which element is known for its use in semiconductors?","Silicon","Copper","Gold","Silver",1
+4,7,"What is the main focus of the Lagrangian mechanics?","Classical mechanics","Quantum mechanics","Thermodynamics","Electromagnetism",1
+4,7,"Who developed the concept of the unconscious mind?","Freud","Jung","Adler","Lacan",1
+4,7,"What is the central theme of Derrida's 'Of Grammatology'?","Deconstruction","Phenomenology","Postmodernism","Structuralism",1
+4,7,"Which civilization is credited with the invention of the alphabet?","Phoenician","Greek","Roman","Egyptian",1
+4,7,"What is the main idea of Gramsci's 'Prison Notebooks'?","Hegemony","Ideology","Power","Resistance",1
+4,7,"Which mathematical concept did Mandelbrot develop?","Fractals","Topology","Number theory","Algebra",1
+4,8,"What is the significance of the Klein-Gordon equation in quantum mechanics?","Scalar fields","Vector fields","Tensor fields","Spinor fields",1
+4,8,"Which philosopher is known for 'The World as Will and Representation'?","Schopenhauer","Kant","Hegel","Sartre",1
+4,8,"What is the Riemannian geometry about?","Curved spaces","Flat spaces","Discrete spaces","Complex spaces",1
+4,8,"Which element is known for its use in batteries?","Lithium","Copper","Gold","Silver",1
+4,8,"What is the main focus of the Hamiltonian mechanics?","Energy conservation","Quantum mechanics","Thermodynamics","Electromagnetism",1
+4,8,"Who developed the theory of psychoanalysis?","Freud","Jung","Adler","Lacan",1
+4,8,"What is the central theme of Adorno's 'Dialectic of Enlightenment'?","Culture industry","Phenomenology","Postmodernism","Structuralism",1
+4,8,"Which civilization is credited with the invention of gunpowder?","Chinese","Greek","Roman","Egyptian",1
+4,8,"What is the main idea of Habermas' 'The Theory of Communicative Action'?","Rationality","Ideology","Power","Resistance",1
+4,8,"Which mathematical concept did Hilbert develop?","Hilbert space","Topology","Number theory","Algebra",1
+4,9,"What is the significance of the Noether's theorem in physics?","Symmetries and conservation laws","Energy conservation","Momentum conservation","Spin conservation",1
+4,9,"Which philosopher is known for 'The Critique of Pure Reason'?","Kant","Hume","Locke","Rousseau",1
+4,9,"What is the Langlands program about?","Number theory","Topology","Complex analysis","Differential equations",1
+4,9,"Which element is known for its use in catalytic converters?","Platinum","Copper","Gold","Silver",1
+4,9,"What is the main focus of the Feynman diagrams?","Quantum electrodynamics","Relativity","Thermodynamics","Electromagnetism",1
+4,9,"Who developed the concept of archetypes in psychology?","Jung","Freud","Adler","Lacan",1
+4,9,"What is the central theme of Marcuse's 'One-Dimensional Man'?","Consumer society","Phenomenology","Postmodernism","Structuralism",1
+4,9,"Which civilization is credited with the invention of the printing press?","Chinese","Greek","Roman","Egyptian",1
+4,9,"What is the main idea of Lyotard's 'The Postmodern Condition'?","Metanarratives","Ideology","Power","Resistance",1
+4,9,"Which mathematical concept did Turing contribute to?","Turing machine","Topology","Number theory","Algebra",1
+4,10,"What is the significance of the Dirac delta function in quantum mechanics?","Point charge","Wave function","Probability density","Spin",1
+4,10,"Which philosopher is known for 'The Critique of Judgment'?","Kant","Hume","Locke","Rousseau",1
+4,10,"What is the Weil conjectures about?","Number theory","Topology","Complex analysis","Differential equations",1
+4,10,"Which element is known for its use in thermometers?","Mercury","Copper","Gold","Silver",1
+4,10,"What is the main focus of the Faraday's law of induction?","Electromagnetic induction","Relativity","Thermodynamics","Electromagnetism",1
+4,10,"Who developed the concept of the collective unconscious?","Jung","Freud","Adler","Lacan",1
+4,10,"What is the central theme of Habermas' 'The Structural Transformation of the Public Sphere'?","Public sphere","Phenomenology","Postmodernism","Structuralism",1
+4,10,"Which civilization is credited with the invention of the abacus?","Chinese","Greek","Roman","Egyptian",1
+4,10,"What is the main idea of Baudrillard's 'The Gulf War Did Not Take Place'?","Media reality","Ideology","Power","Resistance",1
+4,10,"Which mathematical concept did Gödel contribute to?","Incompleteness theorems","Topology","Number theory","Algebra",1
+5,1,"What is the significance of the Yang-Mills existence and mass gap problem?","Quantum field theory","General relativity","String theory","Thermodynamics",1
+5,1,"Which philosopher is known for his work 'Being and Time'?","Heidegger","Sartre","Kant","Nietzsche",1
+5,1,"What is the Birch and Swinnerton-Dyer conjecture concerned with?","Elliptic curves","Prime numbers","Riemann zeta function","Fibonacci sequence",1
+5,1,"Which element has the highest known melting point?","Tungsten","Carbon","Osmium","Iridium",1
+5,1,"What is the main focus of the AdS/CFT correspondence?","String theory and quantum gravity","Relativity and electromagnetism","Thermodynamics and quantum mechanics","Quantum field theory and statistical mechanics",1
+5,1,"Who formulated the quantum theory of fields?","Dirac","Feynman","Bohr","Heisenberg",1
+5,1,"What is the central theme of Wittgenstein's 'Tractatus Logico-Philosophicus'?","Logical atomism","Phenomenology","Existentialism","Structuralism",1
+5,1,"Which civilization is credited with the development of algebra?","Babylonian","Greek","Indian","Egyptian",3
+5,1,"What is the main idea of Bourdieu's 'Distinction: A Social Critique of the Judgement of Taste'?","Cultural capital","Economic capital","Symbolic capital","Social capital",1
+5,1,"Which mathematical concept did Grothendieck contribute to?","Algebraic geometry","Number theory","Topology","Logic",1
+5,2,"What is the significance of the Navier-Stokes existence and smoothness problem?","Fluid dynamics","Quantum mechanics","Thermodynamics","Electromagnetism",1
+5,2,"Which philosopher is known for 'The Phenomenology of Spirit'?","Hegel","Kant","Socrates","Descartes",1
+5,2,"What is the Hodge conjecture about?","Algebraic cycles","Prime numbers","Complex analysis","Elliptic curves",1
+5,2,"Which element is known for its superconductivity at high temperatures?","Yttrium barium copper oxide","Lead","Tin","Mercury",1
+5,2,"What is the main focus of the Higgs mechanism?","Mass generation","Energy conservation","Force mediation","Quantum entanglement",1
+5,2,"Who developed the path integral formulation of quantum mechanics?","Feynman","Dirac","Bohr","Heisenberg",1
+5,2,"What is the central theme of Derrida's 'Of Grammatology'?","Deconstruction","Phenomenology","Postmodernism","Structuralism",1
+5,2,"Which civilization is credited with the invention of the concept of zero?","Indian","Babylonian","Chinese","Greek",1
+5,2,"What is the main idea of Foucault's 'The History of Sexuality'?","Biopolitics","Panopticism","Discipline","Governmentality",1
+5,2,"Which mathematical concept did Noether contribute to?","Symmetry and conservation laws","Number theory","Topology","Logic",1
+5,3,"What is the significance of the Poincaré conjecture proof?","Topology","Number theory","Complex analysis","Differential equations",1
+5,3,"Which philosopher is known for 'The Critique of Pure Reason'?","Kant","Hume","Locke","Rousseau",1
+5,3,"What is the Langlands program about?","Number theory","Topology","Complex analysis","Differential equations",1
+5,3,"Which element is known for its catalytic properties in hydrogenation reactions?","Palladium","Platinum","Gold","Silver",1
+5,3,"What is the main focus of the Standard Model in particle physics?","Fundamental particles and forces","Quantum mechanics","Thermodynamics","Electromagnetism",1
+5,3,"Who proposed the uncertainty principle in quantum mechanics?","Heisenberg","Einstein","Bohr","Planck",1
+5,3,"What is the central theme of Sartre's 'Being and Nothingness'?","Existentialism","Phenomenology","Absurdism","Nihilism",1
+5,3,"Which civilization is credited with the invention of the decimal system?","Indian","Babylonian","Chinese","Greek",1
+5,3,"What is the main idea of Lacan's 'The Mirror Stage'?","Identity formation","Oedipus complex","Dream analysis","Transference",1
+5,3,"Which mathematical concept did Turing contribute to?","Computability","Complexity","Topology","Algebra",1
+5,4,"What is the significance of the Riemann Hypothesis?","Distribution of prime numbers","Quantum mechanics","Relativity","String theory",1
+5,4,"Which philosopher is known for 'The Will to Power'?","Nietzsche","Kant","Hegel","Sartre",1
+5,4,"What is the Weil conjectures about?","Number theory","Topology","Complex analysis","Differential equations",1
+5,4,"Which element is known for its use in nuclear fusion reactions?","Deuterium","Uranium","Thorium","Plutonium",1
+5,4,"What is the main focus of the Quantum Field Theory?","Particle interactions","Energy conservation","Force mediation","Quantum entanglement",1
+5,4,"Who developed the theory of special relativity?","Einstein","Newton","Galileo","Bohr",1
+5,4,"What is the central theme of Heidegger's 'Being and Time'?","Ontology","Epistemology","Ethics","Aesthetics",1
+5,4,"Which civilization developed the concept of infinity?","Greek","Indian","Chinese","Babylonian",1
+5,4,"What is the main idea of Gramsci's 'Prison Notebooks'?","Hegemony","Ideology","Power","Resistance",1
+5,4,"Which mathematical concept did Cantor develop?","Set theory","Calculus","Topology","Algebra",1
+5,5,"What is the significance of the Millennium Prize Problems?","Unsolved problems in mathematics","Quantum mechanics","Relativity","Cryptography",1
+5,5,"Which philosopher is known for the 'categorical imperative'?","Kant","Hume","Locke","Rousseau",1
+5,5,"What is the Birch and Swinnerton-Dyer conjecture about?","Elliptic curves","Prime numbers","Riemann zeta function","Fibonacci sequence",1
+5,5,"Which element is known for its role in organic electronics?","Carbon","Silicon","Germanium","Gallium",1
+5,5,"What is the main focus of the Lagrangian mechanics?","Classical mechanics","Quantum mechanics","Thermodynamics","Electromagnetism",1
+5,5,"Who developed the concept of the unconscious mind?","Freud","Jung","Adler","Lacan",1
+5,5,"What is the central theme of Adorno's 'Dialectic of Enlightenment'?","Culture industry","Phenomenology","Postmodernism","Structuralism",1
+5,5,"Which civilization is credited with the invention of the compass?","Chinese","Greek","Roman","Egyptian",1
+5,5,"What is the main idea of Baudrillard's 'Simulacra and Simulation'?","Hyperreality","Postmodernism","Existentialism","Structuralism",1
+5,5,"Which mathematical concept did Riemann develop?","Geometry","Calculus","Number theory","Algebra",1
+5,6,"What is the significance of the Dirac equation in quantum mechanics?","Electron behavior","Photon behavior","Neutron behavior","Proton behavior",1
+5,6,"Which philosopher is known for 'The World as Will and Representation'?","Schopenhauer","Kant","Hegel","Sartre",1
+5,6,"What is the Yang-Mills existence and mass gap problem about?","Quantum field theory","General relativity","String theory","Thermodynamics",1
+5,6,"Which element is known for its use in semiconductors?","Silicon","Copper","Gold","Silver",1
+5,6,"What is the main focus of Hamiltonian mechanics?","Energy conservation","Quantum mechanics","Thermodynamics","Electromagnetism",1
+5,6,"Who developed the theory of psychoanalysis?","Freud","Jung","Adler","Lacan",1
+5,6,"What is the central theme of Derrida's 'Of Grammatology'?","Deconstruction","Phenomenology","Postmodernism","Structuralism",1
+5,6,"Which civilization is credited with the invention of paper?","Chinese","Greek","Roman","Egyptian",1
+5,6,"What is the main idea of Habermas' 'The Theory of Communicative Action'?","Rationality","Ideology","Power","Resistance",1
+5,6,"Which mathematical concept did Nash contribute to?","Game theory","Topology","Number theory","Algebra",1
+5,7,"What is the significance of the Born rule in quantum mechanics?","Probability","Energy","Momentum","Spin",1
+5,7,"Which philosopher is known for 'The Critique of Judgment'?","Kant","Hume","Locke","Rousseau",1
+5,7,"What is the Hodge conjecture about?","Topology","Number theory","Complex analysis","Differential equations",1
+5,7,"Which element is known for its use in high-temperature superconductors?","Yttrium","Copper","Gold","Silver",1
+5,7,"What is the main focus of the Lagrangian mechanics?","Classical mechanics","Quantum mechanics","Thermodynamics","Electromagnetism",1
+5,7,"Who developed the concept of archetypes in psychology?","Jung","Freud","Adler","Lacan",1
+5,7,"What is the central theme of Marcuse's 'One-Dimensional Man'?","Consumer society","Phenomenology","Postmodernism","Structuralism",1
+5,7,"Which civilization is credited with the invention of the alphabet?","Phoenician","Greek","Roman","Egyptian",1
+5,7,"What is the main idea of Gramsci's 'Prison Notebooks'?","Hegemony","Ideology","Power","Resistance",1
+5,7,"Which mathematical concept did Mandelbrot develop?","Fractals","Topology","Number theory","Algebra",1
+5,8,"What is the significance of the Klein-Gordon equation in quantum mechanics?","Scalar fields","Vector fields","Tensor fields","Spinor fields",1
+5,8,"Which philosopher is known for 'The Phenomenology of Spirit'?","Hegel","Kant","Socrates","Descartes",1
+5,8,"What is the Riemannian geometry about?","Curved spaces","Flat spaces","Discrete spaces","Complex spaces",1
+5,8,"Which element is known for its use in batteries?","Lithium","Copper","Gold","Silver",1
+5,8,"What is the main focus of the Hamiltonian mechanics?","Energy conservation","Quantum mechanics","Thermodynamics","Electromagnetism",1
+5,8,"Who developed the theory of psychoanalysis?","Freud","Jung","Adler","Lacan",1
+5,8,"What is the central theme of Adorno's 'Dialectic of Enlightenment'?","Culture industry","Phenomenology","Postmodernism","Structuralism",1
+5,8,"Which civilization is credited with the invention of gunpowder?","Chinese","Greek","Roman","Egyptian",1
+5,8,"What is the main idea of Habermas' 'The Theory of Communicative Action'?","Rationality","Ideology","Power","Resistance",1
+5,8,"Which mathematical concept did Hilbert develop?","Hilbert space","Topology","Number theory","Algebra",1
+5,9,"What is the significance of the Noether's theorem in physics?","Symmetries and conservation laws","Energy conservation","Momentum conservation","Spin conservation",1
+5,9,"Which philosopher is known for 'The Critique of Pure Reason'?","Kant","Hume","Locke","Rousseau",1
+5,9,"What is the Langlands program about?","Number theory","Topology","Complex analysis","Differential equations",1
+5,9,"Which element is known for its use in catalytic converters?","Platinum","Copper","Gold","Silver",1
+5,9,"What is the main focus of the Feynman diagrams?","Quantum electrodynamics","Relativity","Thermodynamics","Electromagnetism",1
+5,9,"Who developed the concept of archetypes in psychology?","Jung","Freud","Adler","Lacan",1
+5,9,"What is the central theme of Marcuse's 'One-Dimensional Man'?","Consumer society","Phenomenology","Postmodernism","Structuralism",1
+5,9,"Which civilization is credited with the invention of the printing press?","Chinese","Greek","Roman","Egyptian",1
+5,9,"What is the main idea of Lyotard's 'The Postmodern Condition'?","Metanarratives","Ideology","Power","Resistance",1
+5,9,"Which mathematical concept did Turing contribute to?","Turing machine","Topology","Number theory","Algebra",1
+5,10,"What is the significance of the Dirac delta function in quantum mechanics?","Point charge","Wave function","Probability density","Spin",1
+5,10,"Which philosopher is known for 'The Critique of Judgment'?","Kant","Hume","Locke","Rousseau",1
+5,10,"What is the Weil conjectures about?","Number theory","Topology","Complex analysis","Differential equations",1
+5,10,"Which element is known for its use in thermometers?","Mercury","Copper","Gold","Silver",1
+5,10,"What is the main focus of the Faraday's law of induction?","Electromagnetic induction","Relativity","Thermodynamics","Electromagnetism",1
+5,10,"Who developed the concept of the collective unconscious?","Jung","Freud","Adler","Lacan",1
+5,10,"What is the central theme of Habermas' 'The Structural Transformation of the Public Sphere'?","Public sphere","Phenomenology","Postmodernism","Structuralism",1
+5,10,"Which civilization is credited with the invention of the abacus?","Chinese","Greek","Roman","Egyptian",1
+5,10,"What is the main idea of Baudrillard's 'The Gulf War Did Not Take Place'?","Media reality","Ideology","Power","Resistance",1
+5,10,"Which mathematical concept did Gödel contribute to?","Incompleteness theorems","Topology","Number theory","Algebra",1
